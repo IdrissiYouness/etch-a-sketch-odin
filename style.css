@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.global-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEDEB;
+    justify-content: start;
+    gap: 120px;
+    padding: 16px;
+}
+
+
+
+.options-btns{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.color-pick{
+   background-color: white;
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+}
+
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 30px;
+    width:100%;
+    background-color: #EEEDEB;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.btn:hover{
+   background-color: black;
+   color: #EEEDEB;
+   cursor: pointer;
+}
+
+.sketch-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+
+
+.sketch-divs{
+    width: 31.25rem;
+    height: 31.25rem;
+    background-color: white;
+}
+
+
+.div-setting{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+
+}
