@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Sketch</title>
 </head>
 <body>
 <div class="global-container">
 
     <div class="left-menu">
-        <div class="color-pick">
-
+        <div class="color-picker-container">
+                <input type="color"  id="color-picker">
         </div>
         <div class="options-btns">
-            <button class="btn color-mode">Color Mode</button>
+            <button class="btn color-mode">Color Mode </button>
             <button class="btn rainbow-mode">Rainbow Mode</button>
-            <button class="btn eraser-btn">Eraser</button>
+            <button class="btn eraser-btn">Eraser Off</button>
             <button class="btn clear-btn">Clear</button>
         </div>
         <div class="div-setting">
             <label class="setting-title" for="div-changer">16 x 16</label>
-            <input type="range" id="div-changer" class="">
+            <input type="range" id="div-changer"  min="0" max="32" step="8" oninput="updateSetting(this.value)">
         </div>
 
     </div>
